@@ -1,0 +1,79 @@
+:root {
+  --bg-color: #0D0D0D;
+  --dk-gray: #222;
+  --white: #fff;
+  --black: #000;
+  --mid-gray-dk: #707070;
+  --mid-gray: #8F9898;
+  --accent-one: #FF662E;
+  --red: #FF6280;
+  --green: #0b1814;
+  --teal:#669999;
+  --blue:#202174;
+  --purple: #A889BA;
+  --brown: brown;
+  --lt-org: rgb(255, 50, 77);
+}
+::-moz-selection { 
+  background: var(--white); 
+}
+::selection {
+   background: var(--white); 
+  }
+@font-face{
+  font-family: Intro;
+  src: url(../fonts/Introv2.0GX.ttf);
+}
+@font-face{
+  font-family: Intro Mono;
+  src: url(../fonts/Intro-Monov1.01GX.ttf);
+}
+@font-face{
+  font-family: Solilia Thin;
+  src: url(../fonts/SoliliaTest-Regular.otf);
+}
+@font-face{
+  font-family: Solilia Text;
+  src: url(../fonts/SoliliaTest-Extra-LightText.otf);
+}
+@font-face{
+  font-family: Solilia;
+  src: url(../fonts/SoliliaTest-Extra-Light.otf);
+}
+@font-face{
+  font-family: Solilia Bold;
+  src: url(../fonts/SoliliaTest-Bold.otf);
+}
+@font-face{
+  font-family: DIM;
+  src: url(../fonts/DIMv0.4GX.ttf);
+}
+body{
+  font-family: Intro;
+  color:var(--white);
+  background-color: var(--bg-color);
+  height: 300vh;
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+h1{
+  font-size:64px;
+}
+p{
+  font-family: Intro;
+  font-size: 16px;
+  font-variation-settings: 'wght' 100, 'slnt' 0;
+  letter-spacing: 0.05em;
+  color: var(--white);
+  line-height: 1.8;
+}
+a{
+  text-decoration: none;
+  color:var(--white);
+  transition: all .2s;
+}
+a:hover{
+  opacity: 0.5;
+}

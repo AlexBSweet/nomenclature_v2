@@ -1,0 +1,99 @@
+body{
+  background-color: var(--lt-org);
+}
+div.options{
+  background-color:var(--lt-org);
+}
+div.options-header{
+  background-color: var(--lt-org);
+}
+div.header-inner{
+  background-color: var(--lt-org);
+}
+div.typeface-title p{
+  font-family: Solilia Text;
+  color: var(--white);
+}
+section.alphabet span{
+  font-family: Solilia;
+  color: var(--white);
+}
+
+
+.thin{
+  font-family: Solilia Thin;
+}
+.light{
+  font-family: Solilia;
+}
+.reg{
+  font-family: Solilia Text;
+}
+.bold{
+  font-family: Solilia Bold;
+}
+
+
+
+
+
+
+
+
+
+
+div.sample p{
+  font-family: Solilia;
+}
+div.sample-one p{
+  font-size:320px;
+  line-height: 1;
+}
+div.sample-two p{
+  font-size:250px;
+  line-height: 1.1;
+}
+div.sample-three p{
+  font-size:210px;
+  line-height: 1.12;
+}
+div.sample-four p{
+  font-size:180px;
+  line-height: 1.22;
+}
+div.sample-five p{
+  font-size:150px;
+  line-height: 1.29;
+}
+div.sample-six p{
+  font-size:130px;
+  line-height: 1.29;
+}
+div.sample-seven p{
+  font-size:80px;
+  line-height: 1.32;
+}
+div.sample-eight p{
+  font-size:64px;
+  width: 80%;
+  line-height: 1.4;
+}
+div.sample-nine p{
+  font-size:48px;
+  width: 70%;
+}
+div.sample-ten p{
+  font-size:28px;
+  width: 60%;
+}
+div.sample-eleven p{
+  font-size:18px;
+  width: 50%;
+  line-height: 2.3;
+}
+div.sample-twelve p{
+  font-size:12px;
+  width: 40%;
+  line-height: 2.4;
+  letter-spacing: 0.135em;
+}
