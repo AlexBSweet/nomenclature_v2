@@ -10,46 +10,50 @@
 <body class="intro">
 
   <div class="type-menu">
-    <a href="#">Intro Mono</a>
+    <a href="intro-mono.html">Intro Mono</a>
     <a href="#">Kedzie</a>
     <a href="solilia.html">Solilia</a>
     <a href="#">Sharp Stencil</a>
     <a href="dim.html">DIM</a>
   </div>
-<header>
-  <div class="header-inner">
-    <div class="site-title">
-      <p>Nomenclature</p>
+  <header>
+    <div class="header-inner">
+      <div class="site-title">
+        <p>Nomenclature</p>
+      </div>
+        <div class="typeface-sections">
+          <a href="#styles"><p class="styles-link">Styles</p></a>
+          <a href="#samples"><p class="samples-link">Samples</p></a>
+          <a href="#glyphs"><p class="glyphs-link">Glyphs</p></a>
+          <a href="#tester"><p class="tester-link">Tester</p></a>
+          <a><p class="info-link">Info</p></a>
+          <a><p class="buy-link">Buy</p></a>
+        </div>
+        <div class="header-typeface-title">
+          <p>Intro Sans</p>
+        </div>
     </div>
-      <div class="typeface-sections">
-        <p class="current-section">Introduction</p>
-        <p>Samples</p>
-        <p>Glyphs</p>
-        <p>Tester</p>
-        <p>Info</p>
-      </div>
-      <div class="header-typeface-title">
-        <p>Intro Sans</p>
-      </div>
-  </div>
-</header>
+  </header>
 
 <div class="options-link">
   
 </div>
 <div class="options">
+  <p class="options-header-one">Options</p>
 
     <div class="options-color">
         <div class="options-header">
           <p>Color</p>
         </div>
         <div class="options-container color-container">
-            <div class="color-circle purple"></div>
-            <div class="color-circle teal"></div>
-            <div class="color-circle green"></div>
-            <div class="color-circle red"></div>
-            <div class="color-circle gray"></div>
-            <div class="color-circle white"></div>
+            <div data-num="one" class="color-circle color-one"></div>
+            <div data-num="two" class="color-circle color-two"></div>
+            <div data-num="three" class="color-circle color-three"></div>
+            <div data-num="four" class="color-circle color-four"></div>
+            <div data-num="five" class="color-circle color-five"></div>
+            <div data-num="six" class="color-circle color-six"></div>
+            <div data-num="seven" class="color-circle color-seven"></div>
+            <div data-num="eight" class="color-circle color-eight"></div>
         </div>
     </div>
 
@@ -58,7 +62,7 @@
         <p>Style</p>
       </div>
       <div class="options-container style-container">
-        <select class="intro-select select-css">
+        <select class="options-select select-css">
           <option selected="selected">Extra-Light</option>
           <option>Extra-Light Italic</option>
           <option>Light</option>
@@ -74,10 +78,6 @@
           <option>Black</option>
           <option>Black Italic</option>
         </select>
-        <div class="option typesize">
-          <label>Size<span class="size-output">253px</span></label>
-          <input name="typesize" type='range' value=253 min=12 max=400>
-        </div>
         <div class="option weight">
           <label>Weight<span class="weight-output">100</span></label>
           <input  name="weight" type='range' value=100 min=100 max=800>
@@ -86,7 +86,62 @@
             <label>Slant<span class="slant-output">0</span></label>
           <input name="slant" type='range' value=0 min=0 max=1 step=0.01>
         </div>
+        <div class="option option-body line-height">
+          <label>Line Height<span class="line-height-output">1.5</span></label>
+          <input  name="line-height" type='range' value=1.5 min=0.75 max=1.5 step=0.05>
+        </div>
+          <div class="option option-body letter-spacing">
+            <label>Letter Spacing<span class="letter-spacing-output">0</span></label>
+          <input name="letter-spacing" type='range' value=0 min=0 max=0.15 step=0.01>
+        </div>
+        <!-- <p class="reset">Reset</p> -->
       </div>
+  </div>
+
+  <div class="options-opentype">
+    <div class="options-header">
+      <p>OpenType</p>
+    </div>
+    <div class="options-container opentype-container">
+      <div class="opentype-option">
+        <p class="ss01">ss01</p>
+        <div class="checkbox ss01"></div>
+      </div>
+      <div class="opentype-option">
+        <p class="liga">liga</p>
+        <div class="checkbox liga"></div>
+      </div>
+      <div class="opentype-option">
+        <p class="dlig">dlig</p>
+        <div class="checkbox dlig"></div>
+      </div>
+      <div class="opentype-option">
+        <p class="frac">frac</p>
+        <div class="checkbox frac"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div>
+    <div class="options-header">
+      <p>Languages</p>
+    </div>
+    <div class="options-container">
+      <select class="language-select select-css">
+        <option selected="selected">English</option>
+        <option>French</option>
+        <option>German</option>
+        <option>Italian</option>
+        <option>Dutch</option>
+        <option>Norwegian</option>
+        <option>Danish</option>
+        <option>Spanish</option>
+        <option>Portugese</option>
+        <option>Swedish</option>
+      </select>
+    </div>
+   
   </div>
 
 </div>
@@ -98,8 +153,13 @@
 <!-- INTRODUCTION ==================================================== -->
 
 <section class="introduction grid">
+  <div data-name="Introduction" class="introduction"></div>
   <div class="typeface-title">
     <p>Intro Sans</p>
+  </div>
+  <div class="introduction-details">
+   <p>14 Styles</p>
+   <p>Neo - Grotesque</p>
   </div>
   <section class="alphabet">
     <span class="a">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</span>
@@ -107,7 +167,7 @@
 </section>
 
 
-<section class="styles grid">
+<section id="styles" class="styles grid section-start">
     <div class="styles-left">
             <div class="style">
               <span>100</span>
@@ -171,80 +231,84 @@
     </div>
 </section>
 
-<section class="samples">
+<section class="samples" id="samples">
+  <div class="samples section-start"></div>
     <div class="sample sample-one">
       <div class="sample-size sample-one-size">
-        <p>320px</p>
+        <p>320px———— <span>Bold Italic - update this to reflect the weight and slant changes once made in options</span></p>
       </div>
-      <p contenteditable="true" spellcheck="false">Located on the shores </p>
+      <div>
+        <p class="sample sample-one" contenteditable="true" spellcheck="false">Located on the shores of</p>
+      </div>
+    
     </div>
     <div class="sample sample-two">
       <div class="sample-size sample-two-size">
-        <p>320px</p>
+        <p>250px————Bold Italic</p>
       </div>
-      <p>of freshwater Lake Michigan, </p>
+      <p class="sample sample-two">freshwater Lake Michigan, </p>
     </div>
     <div class="sample sample-three">
       <div class="sample-size sample-three-size">
-        <p>320px</p>
+        <p>210px————<span>Bold Italic</span></p>
       </div>
-      <p>was incorporated as a city in 1837 near a portage</p>
+      <p class="sample  sample-three">was incorporated as a city in 1837 near a portage</p>
     </div>
     <div class="sample sample-four">
       <div class="sample-size sample-four-size">
-        <p>320px</p>
+        <p>180px————<span>Bold Italic</span></p>
       </div>
-      <p>between the Great Lakes and the Mississippi River watershed and grew </p>
+      <p class="sample sample-four">between the Great Lakes and the Mississippi River watershed and grew </p>
     </div>
     <div class="sample sample-five">
       <div class="sample-size sample-five-size">
-        <p>320px</p>
+        <p>150px————<span>Bold Italic</span></p>
       </div>
-      <p>rapidly in the mid-19th century.[7] After the Great Chicago Fire of 1871 which destroyed</p>
+      <p class="sample  sample-five">rapidly in the mid-19th century.[7] After the Great Chicago Fire of 1871 which destroyed</p>
     </div>
     <div class="sample sample-six">
       <div class="sample-size sample-six-size">
-        <p>320px</p>
+        <p>130px————<span>Bold Italic</span></p>
       </div>
-      <p>rapidly in the mid-19th century.[7] After the Great Chicago Fire of 1871 which destroyed</p>
+      <p class="sample  sample-six">rapidly in the mid-19th century.[7] After the Great Chicago Fire of 1871 which destroyed</p>
     </div>
     <div class="sample sample-seven">
       <div class="sample-size sample-seven-size">
-        <p>320px</p>
+        <p>80px————<span>Bold Italic</span></p>
       </div>
-      <p>several square miles and left more than 100,000 homeless, the city made a concerted effort to rebuild.[8] The construction</p>
+      <p class="sample  sample-seven">several square miles and left more than 100,000 homeless, the city made a concerted effort to rebuild.[8] The construction</p>
     </div>
     <div class="sample sample-eight">
       <div class="sample-size sample-eight-size">
-        <p>320px</p>
+        <p>64px————<span>Bold Italic</span></p>
       </div>
-      <p> boom accelerated population growth throughout the following decades, and by 1900, less than 30 years after the great fire, Chicago was the fifth-largest city in the world.[9] Chicago made noted contributions to urban planning and zoning standards </p>
+      <p class="sample  sample-eight"> boom accelerated population growth throughout the following decades, and by 1900, less than 30 years after the great fire, Chicago was the fifth-largest city in the world.[9] Chicago made noted contributions to urban planning and zoning standards </p>
     </div>
     <div class="sample sample-nine">
       <div class="sample-size sample-nine-size">
-        <p>320px</p>
+        <p>48px————<span>Bold Italic</span></p>
       </div>
-      <p>  including new construction styles (including the Chicago School of architecture), the development of the City Beautiful Movement, and the steel-framed skyscraper. Chicago is an international hub for finance, culture, commerce, industry, education, technology, telecommunications, and transportation. It is the site of the creation of the first standardized futures contracts, issued by the Chicago Board of Trade, which today is the largest and most diverse </p>
+      <p class="sample sample-nine">  including new construction styles (including the Chicago School of architecture), the development of the City Beautiful Movement, and the steel-framed skyscraper. Chicago is an international hub for finance, culture, commerce, industry, education, technology, telecommunications, and transportation. It is the site of the creation of the first standardized futures contracts, issued by the Chicago Board of Trade, which today is the largest and most diverse </p>
     </div>
     <div class="sample sample-ten">
       <div class="sample-size sample-ten-size">
-        <p>320px</p>
+        <p>28px————<span>Bold Italic</span></p>
       </div>
-      <p>  derivatives market in the world, generating 20% of all volume in commodities and financial futures alone.[12] Depending on the particular year, the city's O'Hare International Airport is routinely ranked as the world's fifth or sixth busiest airport according to tracked data by the Airports Council International.[13] The region also has the largest number of federal highways and is the nation's railroad hub.[14] Chicago was listed as an alpha global city by the Globalization and World Cities Research Network,[15] and it ranked seventh in the entire world in the 2017 Global Cities Index.[16] The Chicago area has one of the highest gross domestic products (GDP) in the world, generating </p>
+      <p class="sample sample-ten">  derivatives market in the world, generating 20% of all volume in commodities and financial futures alone.[12] Depending on the particular year, the city's O'Hare International Airport is routinely ranked as the world's fifth or sixth busiest airport according to tracked data by the Airports Council International.[13] The region also has the largest number of federal highways and is the nation's railroad hub.[14] Chicago was listed as an alpha global city by the Globalization and World Cities Research Network,[15] and it ranked seventh in the entire world in the 2017 Global Cities Index.[16] The Chicago area has one of the highest gross domestic products (GDP) in the world, generating </p>
     </div>
+    <div class="samples section-start"></div>
     <div class="sample sample-eleven">
       <div class="sample-size sample-eleven-size">
-        <p>320px</p>
+        <p>18px————<span>Bold Italic</span></p>
       </div>
-      <p>  $689 billion in 2018.[17] In addition, the city has one of the world's most diversified and balanced economies, with no single industry employing more than 14% of the workforce.[18] Chicago is home to several Fortune 500 companies, including Allstate, Boeing, Exelon, Kraft Heinz, McDonald's, Mondelez International, Sears, United Airlines Holdings, and Walgreens.
-
+      <p class="sample sample-eleven">  $689 billion in 2018.[17] In addition, the city has one of the world's most diversified and balanced economies, with no single industry employing more than 14% of the workforce.[18] Chicago is home to several Fortune 500 companies, including Allstate, Boeing, Exelon, Kraft Heinz, McDonald's, Mondelez International, Sears, United Airlines Holdings, and Walgreens.
         Chicago's 58 million domestic and international visitors in 2018 made it the second most visited city in the nation, as compared with New York City's 65 million visitors in 2018.[19][20] The city was ranked first in the 2018 Time Out City Life Index, a global quality of life survey of 15,000 people in 32 cities.[21][22][23][24][25] Landmarks in the city include Millennium Park, Navy Pier, the  </p>
     </div>
     <div class="sample sample-twelve">
       <div class="sample-size sample-twelve-size">
-        <p>320px</p>
+        <p>12px————<span>Bold Italic</span></p>
       </div>
-      <p>   Magnificent Mile, the Art Institute of Chicago, Museum Campus, the Willis (Sears) Tower, Grant Park, the Museum of Science and Industry, and Lincoln Park Zoo. Chicago's culture includes the visual arts, literature, film, theatre, comedy (especially improvisational comedy), food, and music, particularly jazz, blues, soul, hip-hop, gospel,[26] and electronic dance music including house music. Of the area's many colleges and universities, the University of Chicago, Northwestern University, and the University of Illinois at Chicago are classified as "highest research" doctoral universities. Chicago has professional sports teams in each of the major professional leagues, including two Major League Baseball teams.The name "Chicago" is derived from a French rendering of the indigenous Miami-Illinois word shikaakwa for a wild relative of the onion; it is known to botanists as Allium tricoccum and known more commonly as "ramps". The first known reference to the site of the current city of Chicago as "Checagou" was by Robert de LaSalle around 1679 in a memoir.[27] Henri Joutel, in his journal of 1688, noted that the eponymous wild "garlic" grew abundantly in the area.[28] According to his diary</p>
+      <p class="sample sample-twelve">   Magnificent Mile, the Art Institute of Chicago, Museum Campus, the Willis (Sears) Tower, Grant Park, the Museum of Science and Industry, and Lincoln Park Zoo. Chicago's culture includes the visual arts, literature, film, theatre, comedy (especially improvisational comedy), food, and music, particularly jazz, blues, soul, hip-hop, gospel,[26] and electronic dance music including house music. Of the area's many colleges and universities, the University of Chicago, Northwestern University, and the University of Illinois at Chicago are classified as "highest research" doctoral universities. Chicago has professional sports teams in each of the major professional leagues, including two Major League Baseball teams.The name "Chicago" is derived from a French rendering of the indigenous Miami-Illinois word shikaakwa for a wild relative of the onion; it is known to botanists as Allium tricoccum and known more commonly as "ramps". The first known reference to the site of the current city of Chicago as "Checagou" was by Robert de LaSalle around 1679 in a memoir.[27] Henri Joutel, in his journal of 1688, noted that the eponymous wild "garlic" grew abundantly in the area.[28] According to his diary</p>
     </div>
 </section>
 
@@ -255,26 +319,30 @@
     <div class="tf-three-left">
       <div class="tf-three-left-container">
        
-      <div class="section-start glyphs-start active-glyph-container">A</div>
+      <div class="section-start glyphs-start active-glyph-container"><p>A</p></div>
+      <select class="glyphs-select glyphs-select select-css">
+        <option>Extra-Light</option>
+        <option>Extra-Light Italic</option>
+        <option>Light</option>
+        <option>Light Italic</option>
+        <option selected="selected">Regular</option>
+        <option>Regular Italic</option>
+        <option>Medium</option>
+        <option>Medium Italic</option>
+        <option>Semi-Bold</option>
+        <option>Semi-Bold Italic</option>
+        <option>Bold</option>
+        <option>Bold Italic</option>
+        <option>Black</option>
+        <option>Black Italic</option>
+      </select>
       <div class="glyph-details-container">
-        <select class="intro-select glyphs-select select-css">
-          <option>Extra-Light</option>
-          <option>Extra-Light Italic</option>
-          <option>Light</option>
-          <option>Light Italic</option>
-          <option selected="selected">Regular</option>
-          <option>Regular Italic</option>
-          <option>Medium</option>
-          <option>Medium Italic</option>
-          <option>Semi-Bold</option>
-          <option>Semi-Bold Italic</option>
-          <option>Bold</option>
-          <option>Bold Italic</option>
-          <option>Black</option>
-          <option>Black Italic</option>
-        </select>
+        <p>Glyph Name</p>
         <div class="glyph-details glyph-details-one">Uppercase A</div>
+        <p>Unicode Value</p>
         <div class="glyph-details glyph-details-two">U+0041</div>
+        <p>HTML Entity</p>
+        <div class="glyph-details glyph-details-three"><xmp>HTML</xmp></div>
       </div>
      
     </div>
@@ -286,8 +354,10 @@
     <div class="tf-three-right">
 
       <div class="hover-glyph">A</div>
+      <div class="hover-cursor"></div>
       <div class="glyphs">
         <h1>Glyphs (530)</h1>
+        <div class="glyphs-start section-start"></div>
         <div class="glyphs-container">
           <section class="glyphs-category glyphs-uppercase">
             <p>Uppercase</p>
@@ -671,18 +741,18 @@
         <div data-name="Dollar Sign">$</div>
         <div data-name="Cent Sign">¢</div>
         <div data-name="Currency Sign">&#164;</div>
-        <div data-name="Pound Sign">&#163;</div>
+        <div data-name="English Pound Sign">&#163;</div>
         <div data-name="Euro Sign">&#8364;</div>
-        <div data-name="Yen Sign">&#165;</div>
-        <div data-name="Baht Symbol (Thai)">&#3647;</div>
-        <div data-name="Dong Sign">&#8363;</div>
-        <div data-name="Kip Sign">&#8365;</div>
-        <div data-name="Lira Sign">&#8356;</div>
-        <div data-name="Naira Sign">&#8358;</div>
-        <div data-name="Peso Sign">&#8369;</div>
-        <div data-name="Ruble Sign">&#8381;</div>
-        <div data-name="Rupee Sign">&#8377;</div>
-        <div data-name="Won Sign">&#8361;</div>
+        <div data-name="Japanese Yen Sign">&#165;</div>
+        <div data-name="Thailand Baht Symbol">&#3647;</div>
+        <div data-name="Vietnamese Dong Sign">&#8363;</div>
+        <div data-name="Laotian Kip Sign">&#8365;</div>
+        <div data-name="Turkish Lira Sign">&#8356;</div>
+        <div data-name="Nigerian Naira Sign">&#8358;</div>
+        <div data-name="Philippine Peso Sign">&#8369;</div>
+        <div data-name="Russian Ruble Sign">&#8381;</div>
+        <div data-name="Indian Rupee Sign">&#8377;</div>
+        <div data-name="South Korean Won Sign">&#8361;</div>
       </section>
   
         <section class="glyphs-category glyphs-numbers">
@@ -805,7 +875,7 @@
              <div data-name="Empty Set">&#8709;</div>
             <div data-name="Lozenge">◊</div>
           </section>
-
+          <div class="glyphs-start section-start"></div>
           <section class="glyphs-category glyphs-arrows">
             <p>Arrows</p>
             <div data-name="Left Right Arrow">&#x2194;</div>
@@ -817,8 +887,6 @@
             <div data-name="Up Arrow">&#x2191;</div>
             <div data-name="Left Arrow">&#x2190;</div>
           </section>
-
-
             
              
          
@@ -836,12 +904,112 @@
 
 
 
+<section id="tester" class="tester">
+  <div class="tester-start section-start"></div>
+
+  <div class="options">
+
+  </div>
+  <div contenteditable="true" class="tester-text">
+    Try <br>Intro...<span class="blinking-cursor"></span>
+  </div>
+  <div class="tester-start section-start"></div>
+</section>
+
+
+
+
+
+
+
+<section class="download">
+  <div class="buy-start section-start"></div>
+  <a download>
+  <div class="download-circle-main">
+      <p>&#8595;(DOWNLOAD INTRO SANS)&#8595;</p>
+      <div class="hover-circle hover-circle-up"></div>
+      <div class="hover-circle hover-circle-up"></div>
+      <div class="hover-circle hover-circle-down"></div>
+      <div class="hover-circle hover-circle-down"></div>
+  </div>
+</a>
+</section>
+
+
+<!-- <section class="info">
+  <div class="info-start section-start"></div>
+  <section class="info-inner-container grid">
+    <div class="info-one">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="info-two">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+    <div class="info-three">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div class="info-four">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  </section>
+</section> -->
+
+<!-- <section class="buy">
+  <div class="buy-start section-start"></div>
+</section> -->
+
+
+
+
+<section class="download-test">
+  
+</section>
+
+
+
+
+
+
+
+
+<footer class="grid">
+  <div class="footer-left">
+    <p class="footer-header">
+      Nomenclature
+    </p>
+    <p class="footer-body">Nomenclature is an independent type project designed and run by Alex Sweet. All typefaces are free to download and use for personal and commercial projects under the SIL Open Font License. For inquiries and requests contact me at <a href=“mailto:hello@alexsweet.design”>hello@alexsweet.design</a>
+    </p>
+    <p class="contact-info">
+      <a>alexsweet.design</a>
+      <a>hello@alexsweet.design</a>
+    </p>
+  </div>
+  <div class="footer-right">
+    <p class="footer-header">
+      Fonts
+    </p>
+    <div class="footer-links">
+      <!-- <a>Intro Sans</a> -->
+      <a>Intro Mono</a>
+      <a>Kedzie</a>
+      <a>DIM</a>
+      <a>Solilia</a>
+      <a>Sharp Stencil</a>
+      <a>Queen Anne</a>
+    </div>
+    
+
+  </div>
+</footer>
+
 
 
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/global.js"></script>
 <script src="scripts/typefaces.js"></script>
+<script src="scripts/language-select.js"></script>
 <script src="scripts/intro.js"></script>
+<script src="scripts/test.js"></script>
 
 </body>
 </html>

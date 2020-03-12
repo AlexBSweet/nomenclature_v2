@@ -1,0 +1,86 @@
+body.intro-mono{
+  background-color: green;
+  font-family: Intro Mono;
+}
+header div.header-inner{
+  background-color: green;
+}
+div.style p{
+  font-family: Intro Mono;
+}
+div.style:nth-child(1) p{
+  font-variation-settings: 'wght' 100;
+}
+div.style:nth-child(2) p{
+  font-variation-settings: 'wght' 200;
+}
+div.style:nth-child(3) p{
+  font-variation-settings: 'wght' 400;
+}
+div.style:nth-child(4) p{
+  font-variation-settings: 'wght' 500;
+}
+div.style:nth-child(5) p{
+  font-variation-settings: 'wght' 600;
+}
+div.style:nth-child(6) p{
+  font-variation-settings: 'wght' 700;
+}
+div.style:nth-child(7) p{
+  font-variation-settings: 'wght' 800;
+}
+div.sample p{
+  font-family: Intro Mono;
+}
+div.sample-one p {
+  font-variation-settings: 'wght' 800;
+  line-height: .9;
+}
+div.sample-two p {
+  font-variation-settings: 'wght' 400;
+  line-height: 1;
+}
+div.sample-three p {
+  font-variation-settings: 'wght' 300;
+  line-height: 1.1;
+}
+div.sample-four p {
+  font-variation-settings: 'wght' 100;
+  line-height: 1.2;
+}
+div.sample-five p {
+  font-variation-settings: 'wght' 800;
+  line-height: 1.2;
+}
+div.sample-six p {
+  font-variation-settings: 'wght' 100;
+  line-height: 1.3;
+}
+div.sample-seven p {
+  font-variation-settings: 'wght' 600;
+  line-height: 1.3;
+}
+div.sample-eight p {
+  font-variation-settings: 'wght' 500;
+  line-height: 1.35;
+}
+div.sample-nine p {
+  font-variation-settings: 'wght' 100;
+  line-height: 1.35;
+}
+div.sample-ten p {
+  font-variation-settings: 'wght' 400;
+  line-height: 1.6;
+}
+div.sample-eleven p {
+  font-variation-settings: 'wght' 100;
+  line-height: 1.7;
+}
+div.sample-twelve p {
+  font-variation-settings: 'wght' 100;
+  line-height: 1.8;
+  letter-spacing: 0.5;
+}
+div.typeface-title p{
+  font-family: Intro Mono;
+}

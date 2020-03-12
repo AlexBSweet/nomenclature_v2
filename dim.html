@@ -7,10 +7,10 @@
   <link rel="stylesheet" type="text/css" href="styles/dim.css">
 
 </head>
-<body class="intro">
+<body class="dim">
 
   <div class="type-menu">
-    <a href="#">Intro Mono</a>
+    <a href="intro-mono.html">Intro Mono</a>
     <a href="intro.html">Intro Sans</a>
     <a href="#">Kedzie</a>
     <a href="solilia.html">Solilia</a>
@@ -23,11 +23,11 @@
       <p>Nomenclature</p>
     </div>
       <div class="typeface-sections">
-        <p class="current-section">Introduction</p>
-        <p>Samples</p>
-        <p>Glyphs</p>
-        <p>Tester</p>
-        <p>Info</p>
+        <a href="#introduction"><p class="introduction-link">Introduction</p></a>
+        <a href="#samples"><p class="samples-link">Samples</p></a>
+        <a href="#glyphs"><p class="glyphs-link">Glyphs</p></a>
+        <a><p class="tester-link">Tester</p></a>
+        <a><p class="info-link">Info</p></a>
       </div>
       <div class="header-typeface-title">
         <p>DIM</p>
@@ -75,18 +75,22 @@
           <option>Black</option>
           <option>Black Italic</option>
         </select>
-        <div class="option typesize">
-          <label>Size<span class="size-output">253px</span></label>
-          <input name="typesize" type='range' value=253 min=12 max=400>
-        </div>
         <div class="option weight">
-          <label>Weight<span class="weight-output">100</span></label>
-          <input  name="weight" type='range' value=100 min=100 max=800>
+          <label>Weight<span class="weight-output">400</span></label>
+          <input name="weight" type='range' value=400 min=100 max=800>
         </div>
-          <div class="option slant">
-            <label>Slant<span class="slant-output">0</span></label>
-          <input name="slant" type='range' value=0 min=0 max=1 step=0.01>
-        </div>
+        <div class="option width">
+          <label>Width<span class="width-output">100</span></label>
+        <input name="width" type='range' value=100 min=1 max=100 step=1>
+      </div>
+      <div class="option option-body line-height">
+        <label>Line Height<span class="line-height-output">1.5</span></label>
+        <input  name="line-height" type='range' value=1.5 min=0.75 max=2.5 step=0.05>
+      </div>
+        <div class="option option-body letter-spacing">
+          <label>Letter Spacing<span class="letter-spacing-output">0</span></label>
+        <input name="letter-spacing" type='range' value=0 min=0 max=1 step=0.01>
+      </div>
       </div>
   </div>
 
@@ -94,11 +98,12 @@
 
 
 
-
+<main>
 
 <!-- INTRODUCTION ==================================================== -->
 
 <section class="introduction grid">
+  <div id="introduction" data-name="Introduction" class="introduction section-start"></div>
   <div class="typeface-title">
     <p>DIM</p>
   </div>
@@ -147,11 +152,13 @@
     <p><span>300</span>Wide Light</p>
     <p><span>400</span>Wide Regular</p>
     <p><span>500</span>Wide Medium</p>
+    <div class="introduction section-start"></div>
     <p><span>600</span>Wide Semi-Bold</p>
     <p><span>700</span>Wide Bold</p>
     <p><span>800</span>Wide Black</p>
     <p><span>900</span>Wide Ultra</p>
   </div>
+  
 </section>
 
 
@@ -159,80 +166,82 @@
 
 
 
-<section class="samples">
+<section data-name="Samples" id="samples" class="samples section-start">
+  <div class="samples section-start"></div>
     <div class="sample sample-one">
       <div class="sample-size sample-one-size">
         <p>320px</p>
       </div>
-      <p contenteditable="true" spellcheck="false">Located on the shores </p>
+      <p class="sample" contenteditable="true" spellcheck="false">Located on the shores </p>
     </div>
     <div class="sample sample-two">
       <div class="sample-size sample-two-size">
         <p>320px</p>
       </div>
-      <p>of freshwater Lake Michigan, </p>
+      <p class="sample" contenteditable="true" spellcheck="false">of freshwater Lake Michigan, </p>
     </div>
     <div class="sample sample-three">
       <div class="sample-size sample-three-size">
         <p>320px</p>
       </div>
-      <p>was incorporated as a city in 1837 near a portage</p>
+      <p class="sample" contenteditable="true" spellcheck="false">was incorporated as a city in 1837 near a portage</p>
     </div>
     <div class="sample sample-four">
       <div class="sample-size sample-four-size">
         <p>320px</p>
       </div>
-      <p>between the Great Lakes and the Mississippi River watershed and grew </p>
+      <p class="sample" contenteditable="true" spellcheck="false">between the Great Lakes and the Mississippi River watershed and grew </p>
     </div>
     <div class="sample sample-five">
       <div class="sample-size sample-five-size">
         <p>320px</p>
       </div>
-      <p>rapidly in the mid-19th century.[7] After the Great Chicago Fire of 1871 which destroyed</p>
+      <p class="sample" contenteditable="true" spellcheck="false">rapidly in the mid-19th century.[7] After the Great Chicago Fire of 1871 which destroyed</p>
     </div>
     <div class="sample sample-six">
       <div class="sample-size sample-six-size">
         <p>320px</p>
       </div>
-      <p>rapidly in the mid-19th century.[7] After the Great Chicago Fire of 1871 which destroyed</p>
+      <p class="sample" contenteditable="true" spellcheck="false">rapidly in the mid-19th century.[7] After the Great Chicago Fire of 1871 which destroyed</p>
     </div>
     <div class="sample sample-seven">
       <div class="sample-size sample-seven-size">
         <p>320px</p>
       </div>
-      <p>several square miles and left more than 100,000 homeless, the city made a concerted effort to rebuild.[8] The construction</p>
+      <p class="sample" contenteditable="true" spellcheck="false">several square miles and left more than 100,000 homeless, the city made a concerted effort to rebuild.[8] The construction</p>
     </div>
     <div class="sample sample-eight">
       <div class="sample-size sample-eight-size">
         <p>320px</p>
       </div>
-      <p> boom accelerated population growth throughout the following decades, and by 1900, less than 30 years after the great fire, Chicago was the fifth-largest city in the world.[9] Chicago made noted contributions to urban planning and zoning standards </p>
+      <p class="sample" contenteditable="true" spellcheck="false"> boom accelerated population growth throughout the following decades, and by 1900, less than 30 years after the great fire, Chicago was the fifth-largest city in the world.[9] Chicago made noted contributions to urban planning and zoning standards </p>
     </div>
     <div class="sample sample-nine">
       <div class="sample-size sample-nine-size">
         <p>320px</p>
       </div>
-      <p>  including new construction styles (including the Chicago School of architecture), the development of the City Beautiful Movement, and the steel-framed skyscraper. Chicago is an international hub for finance, culture, commerce, industry, education, technology, telecommunications, and transportation. It is the site of the creation of the first standardized futures contracts, issued by the Chicago Board of Trade, which today is the largest and most diverse </p>
+      <p class="sample" contenteditable="true" spellcheck="false">  including new construction styles (including the Chicago School of architecture), the development of the City Beautiful Movement, and the steel-framed skyscraper. Chicago is an international hub for finance, culture, commerce, industry, education, technology, telecommunications, and transportation. It is the site of the creation of the first standardized futures contracts, issued by the Chicago Board of Trade, which today is the largest and most diverse </p>
     </div>
     <div class="sample sample-ten">
       <div class="sample-size sample-ten-size">
         <p>320px</p>
       </div>
-      <p>  derivatives market in the world, generating 20% of all volume in commodities and financial futures alone.[12] Depending on the particular year, the city's O'Hare International Airport is routinely ranked as the world's fifth or sixth busiest airport according to tracked data by the Airports Council International.[13] The region also has the largest number of federal highways and is the nation's railroad hub.[14] Chicago was listed as an alpha global city by the Globalization and World Cities Research Network,[15] and it ranked seventh in the entire world in the 2017 Global Cities Index.[16] The Chicago area has one of the highest gross domestic products (GDP) in the world, generating </p>
+      <p class="sample" contenteditable="true" spellcheck="false">  derivatives market in the world, generating 20% of all volume in commodities and financial futures alone.[12] Depending on the particular year, the city's O'Hare International Airport is routinely ranked as the world's fifth or sixth busiest airport according to tracked data by the Airports Council International.[13] The region also has the largest number of federal highways and is the nation's railroad hub.[14] Chicago was listed as an alpha global city by the Globalization and World Cities Research Network,[15] and it ranked seventh in the entire world in the 2017 Global Cities Index.[16] The Chicago area has one of the highest gross domestic products (GDP) in the world, generating </p>
     </div>
     <div class="sample sample-eleven">
       <div class="sample-size sample-eleven-size">
         <p>320px</p>
       </div>
-      <p>  $689 billion in 2018.[17] In addition, the city has one of the world's most diversified and balanced economies, with no single industry employing more than 14% of the workforce.[18] Chicago is home to several Fortune 500 companies, including Allstate, Boeing, Exelon, Kraft Heinz, McDonald's, Mondelez International, Sears, United Airlines Holdings, and Walgreens.
+      <p class="sample" contenteditable="true" spellcheck="false">  $689 billion in 2018.[17] In addition, the city has one of the world's most diversified and balanced economies, with no single industry employing more than 14% of the workforce.[18] Chicago is home to several Fortune 500 companies, including Allstate, Boeing, Exelon, Kraft Heinz, McDonald's, Mondelez International, Sears, United Airlines Holdings, and Walgreens.
 
         Chicago's 58 million domestic and international visitors in 2018 made it the second most visited city in the nation, as compared with New York City's 65 million visitors in 2018.[19][20] The city was ranked first in the 2018 Time Out City Life Index, a global quality of life survey of 15,000 people in 32 cities.[21][22][23][24][25] Landmarks in the city include Millennium Park, Navy Pier, the  </p>
     </div>
+    <div class="samples section-start"></div>
     <div class="sample sample-twelve">
       <div class="sample-size sample-twelve-size">
         <p>320px</p>
       </div>
-      <p>   Magnificent Mile, the Art Institute of Chicago, Museum Campus, the Willis (Sears) Tower, Grant Park, the Museum of Science and Industry, and Lincoln Park Zoo. Chicago's culture includes the visual arts, literature, film, theatre, comedy (especially improvisational comedy), food, and music, particularly jazz, blues, soul, hip-hop, gospel,[26] and electronic dance music including house music. Of the area's many colleges and universities, the University of Chicago, Northwestern University, and the University of Illinois at Chicago are classified as "highest research" doctoral universities. Chicago has professional sports teams in each of the major professional leagues, including two Major League Baseball teams.The name "Chicago" is derived from a French rendering of the indigenous Miami-Illinois word shikaakwa for a wild relative of the onion; it is known to botanists as Allium tricoccum and known more commonly as "ramps". The first known reference to the site of the current city of Chicago as "Checagou" was by Robert de LaSalle around 1679 in a memoir.[27] Henri Joutel, in his journal of 1688, noted that the eponymous wild "garlic" grew abundantly in the area.[28] According to his diary</p>
+      <p class="sample" contenteditable="true" spellcheck="false">   Magnificent Mile, the Art Institute of Chicago, Museum Campus, the Willis (Sears) Tower, Grant Park, the Museum of Science and Industry, and Lincoln Park Zoo. Chicago's culture includes the visual arts, literature, film, theatre, comedy (especially improvisational comedy), food, and music, particularly jazz, blues, soul, hip-hop, gospel,[26] and electronic dance music including house music. Of the area's many colleges and universities, the University of Chicago, Northwestern University, and the University of Illinois at Chicago are classified as "highest research" doctoral universities. Chicago has professional sports teams in each of the major professional leagues, including two Major League Baseball teams.The name "Chicago" is derived from a French rendering of the indigenous Miami-Illinois word shikaakwa for a wild relative of the onion; it is known to botanists as Allium tricoccum and known more commonly as "ramps". The first known reference to the site of the current city of Chicago as "Checagou" was by Robert de LaSalle around 1679 in a memoir.[27] Henri Joutel, in his journal of 1688, noted that the eponymous wild "garlic" grew abundantly in the area.[28] According to his diary</p>
     </div>
 </section>
 
@@ -244,25 +253,29 @@
       <div class="tf-three-left-container">
        
       <div class="section-start glyphs-start active-glyph-container">A</div>
+      <select class="intro-select glyphs-select select-css">
+        <option>Extra-Light</option>
+        <option>Extra-Light Italic</option>
+        <option>Light</option>
+        <option>Light Italic</option>
+        <option selected="selected">Regular</option>
+        <option>Regular Italic</option>
+        <option>Medium</option>
+        <option>Medium Italic</option>
+        <option>Semi-Bold</option>
+        <option>Semi-Bold Italic</option>
+        <option>Bold</option>
+        <option>Bold Italic</option>
+        <option>Black</option>
+        <option>Black Italic</option>
+      </select>
       <div class="glyph-details-container">
-        <select class="intro-select glyphs-select select-css">
-          <option>Extra-Light</option>
-          <option>Extra-Light Italic</option>
-          <option>Light</option>
-          <option>Light Italic</option>
-          <option selected="selected">Regular</option>
-          <option>Regular Italic</option>
-          <option>Medium</option>
-          <option>Medium Italic</option>
-          <option>Semi-Bold</option>
-          <option>Semi-Bold Italic</option>
-          <option>Bold</option>
-          <option>Bold Italic</option>
-          <option>Black</option>
-          <option>Black Italic</option>
-        </select>
+        <p>Glyph Name</p>
         <div class="glyph-details glyph-details-one">Uppercase A</div>
+        <p>Unicode Value</p>
         <div class="glyph-details glyph-details-two">U+0041</div>
+        <p>HTML Entity</p>
+        <div class="glyph-details glyph-details-three"><xmp>HTML</xmp></div>
       </div>
      
     </div>
@@ -274,8 +287,10 @@
     <div class="tf-three-right">
 
       <div class="hover-glyph">A</div>
+      <div class="hover-cursor"></div>
       <div class="glyphs">
         <h1>Glyphs (530)</h1>
+        <div class="glyphs-start section-start"></div>
         <div class="glyphs-container">
           <section class="glyphs-category glyphs-uppercase">
             <p>Uppercase</p>
@@ -822,14 +837,14 @@
   </section>
 </section>
 
-
+</main>
 
 
 
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/global.js"></script>
 <script src="scripts/typefaces.js"></script>
-<script src="scripts/intro.js"></script>
+<script src="scripts/dim.js"></script>
 
 </body>
 </html>

@@ -5,9 +5,11 @@
   --black: #000;
   --mid-gray-dk: #707070;
   --mid-gray: #8F9898;
+  --lt-gray: #e2e2e2;
   --accent-one: #FF662E;
   --red: #FF6280;
-  --green: #0b1814;
+  --pink: #f70047;
+  --green: #285044;
   --teal:#669999;
   --blue:#202174;
   --purple: #A889BA;
@@ -47,6 +49,9 @@
 @font-face{
   font-family: DIM;
   src: url(../fonts/DIMv0.4GX.ttf);
+}
+html{
+  scroll-behavior: smooth;
 }
 body{
   font-family: Intro;

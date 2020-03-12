@@ -4,7 +4,7 @@
   border: 1px solid var(--white);
   outline:none;
 	display: block;
-	font-size: 16px;
+	font-size: 13px;
 	font-family: Intro;
   font-variation-settings: 'wght' 200;
   letter-spacing: 0.9;
@@ -34,9 +34,6 @@
 }
 select.body-select{
   margin-bottom:15px;
-}
-select.select-css.light{
-  background-image: url('../assets/arrow-white.svg');
 }
 
 
@@ -90,7 +87,7 @@ input[type=range]::-webkit-slider-thumb {
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  background: gray;
+  background: var(--lt-gray);
   cursor: pointer;
   margin-top: -7px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
 }
@@ -99,7 +96,7 @@ input[type=range]::-moz-range-thumb {
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  background: gray;
+  background: var(--lt-gray);
   cursor: pointer;
 }
 /* All the same stuff for IE */
@@ -107,14 +104,14 @@ input[type=range]::-ms-thumb {
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  background: gray;
+  background: var(--lt-gray);
   cursor: pointer;
 }
 input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 1px;
   cursor: pointer;
-  background: gray;
+  background: var(--lt-gray);
   opacity: 0.8;
 }
 
@@ -127,7 +124,7 @@ input[type=range]::-moz-range-track {
   height: 1px;
   cursor: pointer;
   /* box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; */
-  background: gray;
+  background: var(--lt-gray);
   opacity: 0.8;
 }
 
@@ -141,17 +138,95 @@ input[type=range]::-ms-track {
   color: transparent;
 }
 input[type=range]::-ms-fill-lower {
-  background: gray;
+  background: var(--lt-gray);
   opacity: 1;
 }
 input[type=range]:focus::-ms-fill-lower {
-  background: gray;
+  background: var(--lt-gray);
 }
 input[type=range]::-ms-fill-upper {
-  background: gray;
+  background: var(--lt-gray);
     opacity: 1;
 }
 input[type=range]:focus::-ms-fill-upper {
-  background: gray;
+  background: var(--lt-gray);
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* DARK STYLES ======================================================================== */
+
+.select-css.dark{
+  background-image: url('../assets/arrow-black.svg');
+}
+input[type=range].dark::-webkit-slider-thumb {
+  background: var(--black);
+}
+input[type=range].dark::-moz-range-thumb {
+  background: var(--black);
+}
+/* All the same stuff for IE */
+input[type=range].dark::-ms-thumb {
+  background: var(--black);
+}
+input[type=range].dark::-webkit-slider-runnable-track {
+  background: var(--black);
+}
+input[type=range].dark::-moz-range-track {
+  background: var(--black);
+}
+input[type=range].dark::-ms-fill-lower {
+  background: var(--black);
+}
+input[type=range].dark:focus::-ms-fill-lower {
+  background: var(--black);
+}
+input[type=range].dark::-ms-fill-upper {
+  background: var(--black);
+}
+input[type=range].dark:focus::-ms-fill-upper {
+  background: var(--black);
+}
+
+
+/* LIGHT STYLES ======================================================================== */
+
+input[type=range].light::-webkit-slider-thumb {
+  background: var(--white);
+}
+input[type=range].light::-moz-range-thumb {
+  background: var(--white);
+}
+/* All the same stuff for IE */
+input[type=range].light::-ms-thumb {
+  background: var(--white);
+}
+input[type=range].light::-webkit-slider-runnable-track {
+  background: var(--white);
+}
+input[type=range].light::-moz-range-track {
+  background: var(--white);
+}
+input[type=range].light::-ms-fill-lower {
+  background: var(--white);
+}
+input[type=range].light:focus::-ms-fill-lower {
+  background: var(--white);
+}
+input[type=range].light::-ms-fill-upper {
+  background: var(--white);
+}
+input[type=range].light:focus::-ms-fill-upper {
+  background: var(--white);
+}
+
+
